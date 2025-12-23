@@ -1,0 +1,9 @@
+https://dagshub.com/psaurav170/Mlops-Capstone-Project.mlflow
+
+import dagshub
+dagshub.init(repo_owner='psaurav170', repo_name='Mlops-Capstone-Project', mlflow=True)
+
+import mlflow
+with mlflow.start_run():
+  mlflow.log_param('parameter name', 'value')
+  mlflow.log_metric('metric name', 1)
