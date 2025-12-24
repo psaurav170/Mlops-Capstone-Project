@@ -207,4 +207,6 @@ marimo/_lsp/
 __marimo__/
 
 crediential.txt/
-local_s3
+local_s3/
+data/
+models 
