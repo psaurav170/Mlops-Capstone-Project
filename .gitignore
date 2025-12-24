@@ -209,4 +209,5 @@ __marimo__/
 crediential.txt/
 local_s3/
 models/
-data/raw/
+data
+
